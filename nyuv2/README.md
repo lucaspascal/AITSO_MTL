@@ -1,5 +1,5 @@
 # Usage
-All the baselines can be launched with the training script train.py. One can choose the desired baseline with these three key arguments:
+All the baselines can be launched with the training script [train.py](train.py). One can choose the desired baseline with these three key arguments:
 * '--method': used to choose different multi-task baselines (MTL, MGDA, GradNorm, MR, PCGrad)
 * '--per_batch_step': used to choose if task should be optimized altogether (MTL-SUS) or separately (MTL-IUS/MTL-IO/MR). Set to True for MTL-SUS/GradNorm/PCGrad.
 * '--one_optim_per_task': if 'per_batch_step' is True, used to choose whether to use MTL-IO (True) or MTL-IUS (False). Only supported for MTL and MR methods.
