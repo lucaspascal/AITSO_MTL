@@ -13,10 +13,10 @@ MTL-SUS:
     $ python train.py --name <choose name> --dataroot <data location> --checkpoint_path <save location> --method MTL --per_batch_step True --learning_rate 0.0001
 MTL-IUS:
 
-    $ python train.py --name <choose name> --dataroot <data location> --checkpoint_path <save location> --method MTL --one_optim_per_task True --learning_rate 0.0001
+    $ python train.py --name <choose name> --dataroot <data location> --checkpoint_path <save location> --method MTL --learning_rate 0.0001
 MTL-IO:
   
-    $ python train.py --name <choose name> --dataroot <data location> --checkpoint_path <save location> --method MTL --learning_rate 0.0002
+    $ python train.py --name <choose name> --dataroot <data location> --checkpoint_path <save location> --method MTL --one_optim_per_task True --learning_rate 0.0002
 GradNorm:
   
     $ python train.py --name <choose name> --dataroot <data location> --checkpoint_path <save location> --method Gradnorm --per_batch_step True --learning_rate 0.0001
