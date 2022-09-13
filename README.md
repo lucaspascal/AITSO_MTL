@@ -1,4 +1,4 @@
-# Shared Weights, Separate Losses: Alternate and Independent Task-Specific Optimization for Multi-Task Learning
+# Improved Optimization Strategies for Deep Multi-Task Learning
 This code was made under Pytorch v1.2.0.
 
 Each provided folder contains code for its respective dataset (Celeb-A, CityScapes and NYUv2). Inside of these, a single 'train.py' training script is provided for all of the baselines described in the submission paper.
